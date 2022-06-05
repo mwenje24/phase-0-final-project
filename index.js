@@ -17,7 +17,7 @@ function onSubmit(e){
   }
   else{
     const usernamevalue = username.value;
-    alert(`Thank you (${usernamevalue } your message has been send`)
+    alert(`Thank you ${usernamevalue } your message has been send`)
     //clear fields
     username.value = '';
     email.value  = '';
