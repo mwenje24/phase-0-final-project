@@ -9,27 +9,106 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <ul>
-                <li>Home</li>
-                <li>profile</li>
-                <li>Contacts</li>
-                <li>affiliation</li>
-            </ul>
-        </header>
-        <div class="row" id="home">
-
+        <div class="nav-main" id="home">
+            <nav>
+                <h2 class="logo">Mwe<span>nje</span></h2>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#profile">profile</a></li>
+                    <li><a href="#contacts">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="home-content">
+                <div class="text-content"><p>Full Stack Software Developer</p>
+                    <h4>I go by Mwenje David, a spirited, ethusiastic, creative developer who is only interested in delivering
+                         and getting the best. Though still optimistic on what life has to offer.
+                    </h4></div>
+                <div class="img-content"><img src="./images/editeddee.png" alt=""></div>
+            </div>
         </div>
-        <div class="row" id="profile">
-            
+        <div class="profile-landing"></div>
+        <div class="row profile" id="profile">
+            <h3>My life in  nut shell</h3>
+            <div class="detail-container">
+                <div class="profile-details">
+                    <h4>proffesion</h4>
+                    <div class="image">
+                        <img src="./images/574069.jpg" alt="">
+                    </div>
+                    <div class="desc-details">
+                        <h4>Am well equiped with the understanding and use of a number of programing languages: 
+                        </h4>
+                        <ol style="padding-left: 40px;">
+                            <li>Python</li>
+                            <li>Php Laravel</li>
+                            <li>React Js y</li>
+                            <li>Python djang0</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="profile-details">
+                    <h4>Interest</h4>
+                    <div class="image">
+                        <img src="./images/6212576.jpg" alt="">
+                    </div>
+                    <div class="desc-details">
+                        <h4>Side from work i have intersts in: </h4>
+                            <ul style="padding-left: 40px;">
+                                <li>music</li>
+                                <li>travelling</li>
+                                <li>bike riding</li>
+                                <li>art</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="profile-details">
+                    <h4>To Do list</h4>
+                    <div class="image">
+                        <img src="./images/plenio.jpg" alt="">
+                    </div>
+                    <div class="desc-details">
+                        <h4>Exploration has been my way of life. Been to places, tried new experiences
+                            and i still hunger for more. I'd love to dine with a billionare or even better,
+                            patner with one. Maybe board a rocket, try sky diving and have a startup soon to get my enterprenural
+                            skills on course
+                        </h4>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row" id="contacts">
-            
-        </div>
-        <div class="row" id="affiliation">
-            
+        <div class="contacts-landing"></div>
+        <div class="row contact" id="contacts">
+            <h4>contact me</h4>
+            <form id="contactMessage">
+                <div class="message">
+                    <div class="msgerr"></div>
+                    <label>Full Name</label><br>
+                    <input id="name" type="text" name="name" placeholder="Enter Your Full Names">
+                </div>
+                <div class="message">
+                    <label>Email</label><br>
+                    <input id="email"  name="email" type="text" placeholder="Enter Your Email">
+                </div>
+                <div class="message">
+                    <label>Message</label><br>
+                    <textarea id="message" name="message" cols="20" rows="5"></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </form>
         </div>
     </div>
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href="https://github.com/mwenje24"><img src="./images/github.png" alt=""></a></li>
+                <li><a href="https://linkedin.com/in/mwenje-david-9339731bb"><img src="./images/512.png" alt=""></a></li>
+                <li><a href="https://linkedin.com/in/mwenje-david-9339731bb"><img src="./images/linkedin.png" alt=""></a></li>
+            </ul>
+            <p>copyright &copy;2021</p>
+        </div>
+    </footer>
     
+
+    <script src="index.js"></script>
 </body>
 </html>
